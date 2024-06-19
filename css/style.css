@@ -18,8 +18,9 @@ body{
 }
 main{
     border: 1px solid rgba(15, 15, 15, 0);
- /*    width: 375px; */
-    height: auto;
+    width:90%;
+    max-width:374px;
+    margin:5rem auto;
     border-radius: 20px;
     background-color: white;
     
@@ -68,6 +69,11 @@ main{
     border-radius: 10px;
     background-color:hsl(225, 100%, 98%) ;
 }
+@media (max-width:350px) {
+    .annual-plan{
+        flex-direction: column;
+    }
+}
 
 .annual-plan p{
     font-family: "Red Hat Display", sans-serif;
@@ -105,10 +111,14 @@ main{
     
    
     border: 1px solid hsl(245, 75%, 52%);
-   /*  box-shadow: 5px 20px rgba(201, 207, 216, 0.836) */
+   
     
 }
-
+@media(max-width:350px){
+    .btn{
+        width: 90%;
+    }
+}
 .btn, a {
     font-family: "Red Hat Display", sans-serif;
     font-size: 16px;
@@ -140,131 +150,3 @@ main{
 }
 
 
-
-@media screen and (min-width:481px) {
-    main{
-        margin-left: 10rem;
-        margin-top:1rem;
-        width: 375px;
-        border: 1px solid rgba(15, 15, 15, 0);
-        border-radius: 20px;
-        justify-content: center;
-        align-content: center;
-        background-color: white;
-        
-    }
-    
-}
-@media screen and (min-width:768px) {
-    main{
-        border: 1px solid rgba(15, 15, 15, 0);
-        margin-left: 14rem;
-        margin-top: 6rem;
-        width: 375px;
-       /*  display:block; */
-        border-radius: 20px;
-        justify-content: center;
-        align-content: center;
-        background-color: white;
-        
-    }
-    
-}
-@media screen and (min-width:800px) {
-    main{
-        border: 1px solid rgba(15, 15, 15, 0);
-        margin-left: 19rem;
-        margin-top: 10rem;
-        
-        border-radius: 20px;
-        justify-content: center;
-        align-content: center;
-        background-color: white;
-        
-    }
-    
-}
-@media screen and (min-width:999px) {
-    main{
-        border: 1px solid rgba(15, 15, 15, 0);
-        margin-left: 20rem;
-        margin-top: 3rem;
-        width: 375px;
-        border-radius: 20px;
-        justify-content: center;
-        align-content: center;
-        background-color: white;
-        
-    }
-    
-}
-@media screen and (min-width:1100px) {
-    main{
-        border: 1px solid rgba(15, 15, 15, 0);
-      
-        margin-left: 25rem;
-       /*  display:block; */
-        border-radius: 20px;
-        justify-content: center;
-        align-content: center;
-        background-color: white;
-        
-    }
-    
-}
-@media screen and (min-width:1200px) {
-    main{
-        border: 1px solid rgba(15, 15, 15, 0);
-      
-        margin-left: 25rem;
-       
-        border-radius: 20px;
-        justify-content: center;
-        align-content: center;
-        background-color: white;
-        
-    }
-    
-}
-@media screen and (min-width:1300px) {
-    main{
-        border: 1px solid rgba(15, 15, 15, 0);
-      
-        margin-left: 30rem;
-       /*  display:block; */
-        border-radius: 20px;
-        justify-content: center;
-        align-content: center;
-        background-color: white;
-        
-    }
-    
-}
-@media screen and (min-width:1400px) {
-    main{
-        border: 1px solid rgba(15, 15, 15, 0);
-      
-        margin-left: 40rem;
-       /*  display:block; */
-        border-radius: 20px;
-        justify-content: center;
-        align-content: center;
-        background-color: white;
-        
-    }
-    
-}
-@media screen and (min-width:165px) {
-    main{
-        border: 1px solid rgba(15, 15, 15, 0);
-      
-        margin-left: 40rem;
-       /*  display:block; */
-        border-radius: 20px;
-        justify-content: center;
-        align-content: center;
-        background-color: white;
-        
-    }
-    
-}
